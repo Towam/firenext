@@ -61,7 +61,7 @@ export default function Home(props) {
 
       <Loader show={loading} />
 
-      {!loading && ! postsEnd && <button onclick={getMorePosts}>Load more</button> }
+      {!loading && ! postsEnd && <button onClick={getMorePosts}>Load more</button> }
 
       {postsEnd && 'You have reached the end!'}
     
